@@ -2,7 +2,7 @@
 import java.util.Scanner;
 /**
  *
- * @author Diego Lienzo, Angel Morales, Dario Enriquez.
+ * @author Angel Campos, Dario Enriquez, Diego Lienzo.
  */
 public class Matriz {
     public static void main(String [] args){
@@ -44,7 +44,7 @@ public class MMat{
                 deter = ((matriz[0][0]*matriz[1][1]*matriz[2][2])+(matriz[1][0]*matriz[2][1]*matriz[0][2])+(matriz[2][0]*matriz[0][2]*matriz[1][2])-(matriz[0][2]*matriz[1][1]*matriz[2][0])-(matriz[1][2]*matriz[2][1]*matriz[0][0])-(matriz[2][2]*matriz[0][1]*matriz[1][0]));
             }
         }
-    System.out.println("El determinante es: "+ deter);
+    System.out.println("El Determinante de la Matriz es: "+ deter);
 }
     public void impM(){
         for(int i = 0; i < tam; i +=1){
@@ -53,7 +53,7 @@ public class MMat{
             }
             System.out.println("");
         }
-        System.out.println("Campos Morales Angel, Lienzo G. Diego, Enriquez B. Dario");
+        System.out.println("Campos M. Angel, Lienzo G. Diego, Enriquez B. Dario");
 }
 
 }
