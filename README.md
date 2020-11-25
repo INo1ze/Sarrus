@@ -3,6 +3,7 @@ import java.util.Scanner;
 /**
  *
  * @author Angel Campos, Dario Enriquez, Diego Lienzo.
+ * @ Grupo: 4 Ciencias Computacionales 
  */
 public class Matriz {
     public static void main(String [] args){
